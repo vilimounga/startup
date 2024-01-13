@@ -1,0 +1,1 @@
+I learned the basics of writing markdown and how to push and pull with git.
