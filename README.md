@@ -10,3 +10,11 @@ Have you been looking for a good reason to exercise and accomplish your health g
 - Ability to enter personal health data
 - Inputs entered are recorded over time
 - Best health records are displayed on Top Chart
+### Technologies
+- **HTML** - Uses HTML for website application structure. 3 HTML pages, one for login, one for inputting data, and one for viewing daily best scores.
+- **CSS** - Application adjusts for good viewing on various screens. CSS used to display colorful designs and shapes and eye-catching symbols.
+- **JavaScript** - Used in login/authentication step, display realtime daily scores, inputting fitness data, and navigating different pages.
+- **WebService** - This web applicatioin will use web services in verifying logins, recording fitness data, and retriving best scores.
+- **Database** - Database will be use to store login information and personal health data.
+- **Websocket** -  When user logs in, a different motivational quote will be displayed to encourage user every day.
+- **React** - Web application will be redeveloped in the React framework.
