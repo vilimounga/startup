@@ -6,7 +6,7 @@ Have you been looking for a good reason to exercise and accomplish your health g
 ![Image of the Fitness Tracker Web Application](fitnesstrackerdesign.jpg)
 ### Key Features
 - Secure User Login
-- Display of fillable sections
+- Display of various fitness factors
 - Ability to enter personal health data
 - Inputs entered are recorded over time
 - Best health records are displayed on Top Chart
