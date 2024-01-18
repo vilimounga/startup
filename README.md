@@ -3,7 +3,7 @@
 ### Elevator Pitch
 Have you been looking for a good reason to exercise and accomplish your health goals? The new Fitness Tracker makes it easy for users to record their daily steps, calories, and water intake. Every user can see their personal health data and track their progress over time. As users record their data daily, users will receive daily motivational quotes to encourage them towards their goals. This use of health data over real time will help users to have fun, track their progress, all while achieving their health goals.
 ### Design
-![Image of the Fitness Tracker Web Application](fitnesstrackerdesign.jpg)
+![Image of the Fitness Tracker Web Application](trackerdesign.jpg)
 ### Key Features
 - Secure User Login
 - Display of various fitness factors
