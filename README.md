@@ -18,3 +18,13 @@ Have you been looking for a good reason to exercise and accomplish your health g
 - **Database** - Database will be use to store login information and personal health data.
 - **Websocket** -  When user logs in, a different motivational quote will be displayed to encourage user every day.
 - **React** - Web application will be redeveloped in the React framework.
+
+## HTML deliverable
+
+For this deliverable I built out the structure of my application using HTML.
+- **HTML pages** - Four HTML pages, homepage for logging in, record page for submitting data, progress page for viewing graphical trends, and leaderboard page for top scores.
+- **Links** - Login on homepage links to the user's record page. Navigation menu consists of 4 links to the other HTML pages.
+- **Text** - Each data type on the record page has a logo with text associated with it. Textual keys for the graph on the progress page and text used to list a static leaderboard.
+- **Images** - I included 3 images to represent the 3 types of data to submit on the record page.
+- **DB/Login** - Username/Password input and login button. Submit button on record page used to submit user's data to DB. Leaderboard represents data pulled from DB.
+- **WebSocket** - The motivational dailyquote on the progress page represents a random quote pulled from an API.
