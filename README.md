@@ -14,9 +14,9 @@ Have you been looking for a good reason to exercise and accomplish your health g
 - **HTML** - Uses HTML for website application structure. 3 HTML pages, one for login, one for inputting data, and one for viewing progress over time.
 - **CSS** - Application adjusts for good viewing on various screens. CSS used to display colorful designs and shapes and eye-catching symbols.
 - **JavaScript** - Used in login/authentication step, display of personal progress, inputting fitness data, and navigating different pages.
-- **WebService** - This web applicatioin will use web services in verifying logins, recording fitness data, and retriving historical fitness data.
+- **WebService** - I will use a Workout API that a user can input a desired muscle or workout to recieve a selected excersise to try.
 - **Database** - Database will be use to store login information and personal health data.
-- **Websocket** -  When user logs in, a different motivational quote will be displayed to encourage user every day.
+- **Websocket** -  On the record html page, notifications will be received when user has recorded personal data for 1,2,3,etc. straight.
 - **React** - Web application will be redeveloped in the React framework.
 
 ## HTML deliverable
