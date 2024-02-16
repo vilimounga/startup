@@ -14,17 +14,37 @@
     />
   </head>
   <body>
-    <header class="bg-primary">
-        <a href="index.html"><h1>FitnessPal</h1></a> 
-            <ul class="nav-links">
-              <li class="li_1"><a href="index.html">Login</a></li>
-              <li class="li_1"><a href="record.html">Record</a></li>
-              <li class="li_1"><a href="progress.html">Progress</a></li>
-              <li class="li_1"><a href="leaderboard.html">Leaderboard</a></li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">FitnessPal</a>
+
+        <button 
+        class="navbar-toggler"
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navmenu"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="record.html" class="nav-link">Record</a>
+            </li>
+            <li class="nav-item">
+              <a href="progress.html" class="nav-link">Progress</a>
+            </li>
+            <li class="nav-item">
+              <a href="leaderboard.html" class="nav-link">Leaderboard</a>
+            </li>
+          </ul>
         </div>
-    </header>
+      </div>
+    </nav>
     <main>
         <hr />
         <p><img alt="running shoe" src="images/shoe.png" width="150" height="125"/>
