@@ -1,28 +1,5 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 30px 10px 30px;
-    flex: 0 190px;
-}
-
-header h1 {
-    color: white;
-}
-
-ul.nav-links {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-links a {
-    margin-left: 20px;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
+@media(min-width: 500px) {
+    .news {
+        width: 50%;
+    }
 }
