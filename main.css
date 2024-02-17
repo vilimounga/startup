@@ -1,5 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+  }
+
+#display {
+    flex: 0;
+}
+
+#login-area {
+    flex: 1;
+}
+
+#footer-bot {
+    flex: 0;
+}
+
+
 @media(min-width: 500px) {
     .news {
         width: 50%;
     }
+}
+
+#github-link {
+    text-decoration: none;
 }
