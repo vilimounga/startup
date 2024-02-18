@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FitnessPal</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="record.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -48,57 +49,40 @@
 
     <main>
       <section class="bg-dark text-white p-5 text-center">
-        <div class="container">
-          <div class="d-sm-flex align-items-center justify-content-between">
-            <div>
-              <p><img alt="running shoe" src="images/shoe.png" width="150" height="125"/>
-                  <input type="text" id="steps" placeholder="Enter your steps" /></p>
-              <h2>Daily Steps</h2>
-              <p><img alt="apple" src="images/apple.png" width="150" height="125"/>
-                  <input type="text" id="calories" placeholder="Enter your calories" /></p>
-              <h2>Daily Calories Intake</h2>
-              <p><img alt="water" src="images/water.png" width="150" height="125"/>
-                  <input type="text" id="water" placeholder="Enter your water intake (oz)" /></p>
-              <h2>Daily Water Intake</h2>
-              <button type="submit">Submit</button>
-              </div>
+        <div class="app"> 
+          <h1>Welcome!</h1> 
+          <h3>Record Your Data for Today</h3>
+          <div class="inputs"> 
+              <div> 
+                  <label for="steps"> 
+                        Daily Steps 
+                    </label> 
+                  <input id="steps" type="number"> 
+              </div> 
+              <div> 
+                  <label for="calories"> 
+                        Daily Calories 
+                    </label> 
+                  <input id="calories" type="number"> 
+              </div> 
+              <div> 
+                  <label for="water"> 
+                        Water Intake (fl oz.)
+                    </label> 
+                  <input id="calories" type="number"> 
+              </div> 
+          </div> 
+          <button id="submit">Submit</button> 
+          <div id="editSection" class="hidden"> 
+              <button id="cancelEdit" onclick="cancelEdit()"> 
+                    Cancel 
+                </button> 
+              <button id="updateEntry" onclick="editRow()"> 
+                    Update 
+                </button> 
           </div>
-        </div>
+          </div>
       </section>
-
-      <div class="app"> 
-        <h1>GeeksforGeeks</h1> 
-        <h3>Health Tracker App</h3> 
-        <div class="inputs"> 
-            <div> 
-                <label for="water"> 
-                      Water Intake (in ml) 
-                  </label> 
-                <input id="water" type="number"> 
-            </div> 
-            <div> 
-                <label for="exercise"> 
-                      Exercise Duration (in min) 
-                  </label> 
-                <input id="exercise" type="number"> 
-            </div> 
-            <div> 
-                <label for="bloodsugerlevel"> 
-                      Blood Sugar Level (in mg/dL) 
-                  </label> 
-                <input id="bloodsugerlevel" type="number"> 
-            </div> 
-        </div> 
-        <button id="submit">Submit</button> 
-        <div id="editSection" class="hidden"> 
-            <button id="cancelEdit" onclick="cancelEdit()"> 
-                  Cancel 
-              </button> 
-            <button id="updateEntry" onclick="editRow()"> 
-                  Update 
-              </button> 
-        </div>
-        </div>
 
     </main>
 
