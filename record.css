@@ -1,0 +1,21 @@
+main {
+    flex: 1;
+}
+
+footer {
+    flex: 0;
+    min-height: 50px;
+}
+
+#navigation {
+    flex: 0;
+
+}
+
+img {
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
