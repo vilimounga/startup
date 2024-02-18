@@ -48,40 +48,40 @@
     </nav>
 
     <main>
-      <section class="bg-dark text-white p-5 text-center">
-        <div class="app"> 
-          <h1>Welcome!</h1> 
-          <h3>Record Your Data for Today</h3>
-          <div class="inputs"> 
-              <div> 
-                  <label for="steps"> 
-                        Daily Steps 
-                    </label> 
-                  <input id="steps" type="number"> 
-              </div> 
-              <div> 
-                  <label for="calories"> 
-                        Daily Calories 
-                    </label> 
-                  <input id="calories" type="number"> 
-              </div> 
-              <div> 
-                  <label for="water"> 
-                        Water Intake (fl oz.)
-                    </label> 
-                  <input id="calories" type="number"> 
-              </div> 
-          </div> 
-          <button id="submit">Submit</button> 
-          <div id="editSection" class="hidden"> 
-              <button id="cancelEdit" onclick="cancelEdit()"> 
-                    Cancel 
-                </button> 
-              <button id="updateEntry" onclick="editRow()"> 
-                    Update 
-                </button> 
+
+      <!--This is my Record Input Section-->
+      <section class="bg-dark text-white p-5 h-100">
+        <h1 class="text-center">Welcome!</h1>
+        <h3 class="text-center">Record your numbers for Today!</h3>
+        <div class="d-md-flex container justify-content-between align-items-center my-4">
+          <div class="p-5">
+            <img class="img-fluid d-none d-md-block mb-2" src="images/walking.svg" alt="fitness-tracker icon" />
+            <h2 class="text-center">Steps</h2>
+            <div class="input-group">
+              <input type="text" class="form-control"
+               placeholder="Enter your Steps">
+            </div>
           </div>
+          <div class="p-5">
+            <img class="img-fluid d-none d-md-block mb-2 " src="images/cooking.svg" alt="fitness-tracker icon" />
+            <h2 class="text-center">Calories</h2>
+            <div class="input-group">
+              <input type="text" class="form-control"
+               placeholder="Enter your calories">
+            </div>
           </div>
+          <div class="p-5">
+            <img class="img-fluid d-none d-md-block mb-2 " src="images/coffee.svg" alt="fitness-tracker icon" />
+            <h2 class="text-center">Water Intake</h2>
+            <div class="input-group">
+              <input type="text" class="form-control"
+               placeholder="Enter your Water Intake">
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-primary btn-lg text-light">Submit</button>
+        </div>
       </section>
 
     </main>
@@ -89,9 +89,9 @@
     <!--This is my Footer Section with my name and GitHub-->
     <footer class="d-md-flex p-5 bg-primary text-white text-center" id="footer-bot">
       <div class="container">
-        <div class="d-sm-flex align-items-center justify-content-between">
+        <div class="d-sm-flex align-items-center justify-content-between ">
           <div>
-            <p class="lead">Viliami Mounga</p>
+            <p class="lead mb-5">Viliami Mounga</p>
           </div>
           <div>
             <p>
