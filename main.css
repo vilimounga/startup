@@ -17,13 +17,6 @@ body {
     flex: 0;
 }
 
-
-@media(min-width: 500px) {
-    .news {
-        width: 50%;
-    }
-}
-
 #github-link {
     text-decoration: none;
 }
