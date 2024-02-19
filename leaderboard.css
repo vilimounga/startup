@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+  }
+
+  header {
+    flex: 0 80px;
+    background: hsl(223, 57%, 38%);
+  }
+  
+  footer {
+    flex: 0;
+    background: hsl(180, 10%, 10%);
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  a.text-reset {
+    text-decoration: none;
+    float: right;
+}
