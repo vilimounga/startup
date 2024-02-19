@@ -1,17 +1,17 @@
-body {
+ body {
     display: flex;
     flex-direction: column;
     margin: 0;
     height: 100vh;
-  }
+  } 
 
-  header {
-    flex: 0 80px;
+   header {
+    flex: 0;
     background: hsl(223, 57%, 38%);
-  }
+  } 
   
   footer {
-    flex: 0 30px;
+    flex: 0;
     background: hsl(180, 10%, 10%);
   }
   
@@ -26,13 +26,35 @@ body {
     font-size: 3em;
     color:black;
     border-style: solid;
-    border-width: 5px;
-    border-color: darkorchid;
-    border-radius: 10px;
+    /* border-width: 5px; */
+    border-color: rgb(21, 20, 22);
+    border-radius: 40px;
     padding: 100px 100px 100px 100px;
     margin: 100px 100px 100px 100px;
-    background-color: peachpuff;
+    background-color: rgb(46, 117, 224);
+    box-shadow: 5px 5px 8px 5px #434149;
   } 
+
+  .graph {
+    text-align: center;
+    font-size: 3em;
+    color:black;
+    border-style: solid;
+    /* border-width: 5px; */
+    border-color: rgb(21, 20, 22);
+    border-radius: 40px;
+    padding: 100px 100px 100px 100px;
+    margin: 100px 100px 100px 100px;
+    background-color: rgb(253, 248, 245);
+    box-shadow: 5px 5px 8px 5px #434149;
+  }
+
+  .legend {
+    display: flex;
+    box-shadow: none;
+    border: none;
+    border-width: 0;
+  }
   
   a.text-reset {
         text-decoration: none;
