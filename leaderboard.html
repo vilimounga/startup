@@ -5,7 +5,7 @@
     <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FitnessPal</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="leaderboard.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3">
       <div class="container">
         <a href="index.html" class="navbar-brand">FitnessPal</a>
 
@@ -45,56 +45,57 @@
         </div>
       </div>
     </nav>
-    <main>
-        <hr />
-        <h3><u>Top Leaderboard</u></h3>
-        <table>
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Name</th>
-                <th>Steps</th>
-                <th>Date</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Bob</td>
-                <td>12,861</td>
-                <td>July 10, 2023</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Chris</td>
-                <td>10,889</td>
-                <td>Feburary 18, 2022</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Sarah</td>
-                <td>9,112</td>
-                <td>December 25, 2023</td>
-              </tr>
-            </tbody>
-          </table>
+    <main class="bg-dark text-center">
+      <section>
+      <div class="container">
+      <table class="table table-striped table-hover table-bordered table-sm table-responsive-sm">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Highest Number of Steps</th>
+            <th scope="col">Date</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider bg-light text-center">
+          <tr>
+            <th scope="row">1</th>
+            <td>Kobe Bryant</td>
+            <td>18,879</td>
+            <td>March 28, 2008</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Lebron James</td>
+            <td>16,002</td>
+            <td>November 2, 2015</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Kevin Durant</td>
+            <td>15,867</td>
+            <td>April 26, 2020</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </section>
     </main>
 
     <!--This is my Footer Section with my name and GitHub-->
-    <footer class="d-md-flex p-5 bg-primary text-white text-center" id="footer-bot">
-      <div class="container">
-        <div class="d-sm-flex align-items-center justify-content-between">
-          <div>
-            <p class="lead">Viliami Mounga</p>
-          </div>
-          <div>
-            <p>
-              <a class="text-white" id="github-link" href="https://github.com/vilimounga/startup.git">My GitHub Repo</a>
-            </p>
-          </div>
+    <footer class="bg-primary text-white align-items-center justify-content-between">
+      <div class="container-fluid">
+        <div class="container my-3">
+          <span class="text-reset">Viliami Mounga</span>
+          <a class="text-reset" href="https://github.com/vilimounga/startup.git">My GitHub Repo</a>
         </div>
       </div>
     </footer>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 
   </body>
 </html>
