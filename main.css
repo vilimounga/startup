@@ -7,10 +7,11 @@ body {
 
 #display {
     flex: 0;
+    height: 100vh;
 }
 
 #login-area {
-    flex: 1;
+    flex-grow: 1;
 }
 
 #footer-bot {
@@ -19,4 +20,9 @@ body {
 
 #github-link {
     text-decoration: none;
+}
+
+a.text-reset {
+    text-decoration: none;
+    float: right;
 }
