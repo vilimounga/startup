@@ -28,3 +28,13 @@ For this deliverable I built out the structure of my application using HTML.
 - **Images** - I included 3 images to represent the 3 types of data to submit on the record page.
 - **DB/Login** - Username/Password input and login button. Submit button on record page used to submit user's data to DB. Leaderboard represents data pulled from DB.
 - **WebSocket** - The motivational dailyquote on the progress page represents a random quote pulled from an API.
+
+## CSS deliverable
+
+For this deliverable I applied CSS styling to my web application to get my desired design.
+ - **Header,footer, and main content body**
+ - **Navigation element** - I changed the text color, used flex, and implemented the anchor elements into a bootstrap navigation bar.
+ - **Responsive to window resizing** - I used flexbox via the Bootstrap framework to make the pages adjust to various widths and lengths.
+ - **Application elements** - I used only 3 primary colors and styles the pages using large sections of solid colors to highlight different elements of each page.
+ - **Application text content** I used Boostrap's built-in font-style on all my pages.
+ - **Application image** I used free SVG images from unDraw's library on my index/record html pages.
