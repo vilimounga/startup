@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="progress.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+        crossorigin="anonymous"
     />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3">
-      <div class="container">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3">
+    <div class="container">
         <a href="index.html" class="navbar-brand">&nbsp&nbspFitnessPal</a>
 
         <button 
@@ -29,93 +29,42 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="record.html" class="nav-link">Record</a>
-            </li>
-            <li class="nav-item">
-              <a href="progress.html" class="nav-link">Progress</a>
-            </li>
-            <li class="nav-item">
-              <a href="leaderboard.html" class="nav-link">Leaderboard</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="record.html" class="nav-link">Record</a>
+                </li>
+                <li class="nav-item">
+                    <a href="progress.html" class="nav-link">Progress</a>
+                </li>
+                <li class="nav-item">
+                    <a href="leaderboard.html" class="nav-link">Leaderboard</a>
+                </li>
+            </ul>
         </div>
-      </div>
-    </nav>
+    </div>
+</nav>
 
-    <main class="bg-dark text-light">
-      <div>
-        <div class="graph">
-        <svg width="500" height="300">
-          <!-- X axis -->
-          <line x1="120" y1="250" x2="400" y2="250" style="stroke:black;stroke-width:2" />
-          <!-- Y axis -->
-          <line x1="120" y1="20" x2="120" y2="250" style="stroke:black;stroke-width:2" />
-        
-          <!-- X axis ticks and labels -->
-          <line x1="150" y1="242" x2="150" y2="258" style="stroke:black;stroke-width:2" />
-          <text x="150" y="270" font-size="12" fill="black" text-anchor="middle">Mon</text>
-          <line x1="190" y1="242" x2="190" y2="258" style="stroke:black;stroke-width:2" />
-          <text x="190" y="270" font-size="12" fill="black" text-anchor="middle">Tues</text>
-          <line x1="230" y1="242" x2="230" y2="258" style="stroke:black;stroke-width:2" />
-          <text x="230" y="270" font-size="12" fill="black" text-anchor="middle">Wed</text>
-          <line x1="270" y1="242" x2="270" y2="258" style="stroke:black;stroke-width:2" />
-          <text x="270" y="270" font-size="12" fill="black" text-anchor="middle">Thr</text>
-          <line x1="310" y1="242" x2="310" y2="258" style="stroke:black;stroke-width:2" />
-          <text x="310" y="270" font-size="12" fill="black" text-anchor="middle">Fri</text>
-          <line x1="350" y1="242" x2="350" y2="258" style="stroke:black;stroke-width:2" />
-          <text x="350" y="270" font-size="12" fill="black" text-anchor="middle">Sat</text>
-          <line x1="390" y1="242" x2="390" y2="258" style="stroke:black;stroke-width:2" />
-          <text x="390" y="270" font-size="12" fill="black" text-anchor="middle">Sun</text>
-        
-          <!-- Corrected Y axis ticks and labels -->
-          <line x1="130" y1="200" x2="110" y2="200" style="stroke:black;stroke-width:2" />
-          <text x="135" y="205" font-family="Arial" font-size="12" fill="black" text-anchor="start">50</text> 
-          <line x1="130" y1="100" x2="110" y2="100" style="stroke:black;stroke-width:2" />
-          <text x="132" y="105" font-family="Arial" font-size="12" fill="black" text-anchor="start">300</text>
-          <line x1="130" y1="180" x2="110" y2="180" style="stroke:black;stroke-width:2" />
-          <text x="132" y="185" font-family="Arial" font-size="12" fill="black" text-anchor="start">100</text> 
-          <line x1="130" y1="160" x2="110" y2="160" style="stroke:black;stroke-width:2" />
-          <text x="132" y="165" font-family="Arial" font-size="12" fill="black" text-anchor="start">150</text>
-          <line x1="130" y1="140" x2="110" y2="140" style="stroke:black;stroke-width:2" />
-          <text x="132" y="145" font-family="Arial" font-size="12" fill="black" text-anchor="start">200</text>
-          <line x1="130" y1="120" x2="110" y2="120" style="stroke:black;stroke-width:2" />
-          <text x="132" y="125" font-family="Arial" font-size="12" fill="black" text-anchor="start">250</text>
-        
-          <!--"calories" line-->
-          <line x1="130" y1="250" x2="320" y2="180" style="stroke:red;stroke-width:2" />
-          <!--"water" line-->
-          <line x1="130" y1="250" x2="320" y2="135" style="stroke:blue;stroke-width:2" />
-          <!--"steps" line-->
-          <line x1="130" y1="250" x2="320" y2="100" style="stroke:green;stroke-width:2" />
-        </svg>
-        </div>
-      <div class="d-md-flex legend m-1 py-2 justify-content-between text-light">
-        <h4>Red = Calories</h4>
-        <h4>Blue = Water</h4>
-        <h4>Green = Steps</h4>
-      </div>
-      <p class="fs-4 m-2 text-light">"Real change, enduring change, happens one step at a time." - Ruth Bader Ginsburg</p>
-      </div>
-    </main>
+<main class="bg-dark text-light">
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+</main>
 
-    <!--This is my Footer Section with my name and GitHub-->
-    <footer class="bg-primary text-white align-items-center justify-content-between">
-      <div class="container-fluid">
+<!--This is my Footer Section with my name and GitHub-->
+<footer class="bg-primary text-white align-items-center justify-content-between">
+    <div class="container-fluid">
         <div class="container my-3">
-          <span class="text-reset">Viliami Mounga</span>
-          <a class="text-reset" href="https://github.com/vilimounga/startup.git">My GitHub Repo</a>
+            <span class="text-reset">Viliami Mounga</span>
+            <a class="text-reset" href="https://github.com/vilimounga/startup.git">My GitHub Repo</a>
         </div>
-      </div>
-    </footer>
-    <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
+    </div>
+</footer>
 
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="progress.js"></script>
+</body>
 </html>
