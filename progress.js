@@ -40,6 +40,6 @@ const myChart = new Chart(ctx, {
                 }
             }
         },
-        backgroundColor: 'white' // Set background color here
+        backgroundColor: 'white'
     }
 });
