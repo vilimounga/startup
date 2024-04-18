@@ -17,3 +17,8 @@ Used the debugger in the web browser to easily see the physical aspects of the C
 I also learned that selecting specific elements, you can also see what that element inheirts different styles from parent elements. 
 Javascript script from Bootstrap is needed in order to get some functionality for the different elements like the nav-bar, icons, and input forms.
 Flexbox/Grid are important to the responsive aspect of the webpage because it helps to resize the boxes on the page when making the page smaller. 
+## Javascript Startup
+I learned a lot about Javacompared to CSS and HTML because its another programming language like Python or C++.
+JavaScript is loosly typed so the use of typing all of our variables and functions is not needed at all.
+JavaScript is a 1st-class function programming language so we can set functions to variables and pass them through parameters to other functions.
+Javascript has two types of structures called Async and Promises which pretty means that different functions can return and complete at different times.
