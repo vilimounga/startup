@@ -5,19 +5,15 @@ function loadScores() {
         recordedData = JSON.parse(recordedDataText);
     }
 
-    // Retrieve the username from localStorage
     const userName = localStorage.getItem('userName');
 
-    // Sort recorded data based on the number of steps in descending order
     recordedData.sort((a, b) => b.steps - a.steps);
 
     const tableBodyEl = document.querySelector('.table tbody');
 
     if (recordedData.length) {
-        // Clear existing table rows
         tableBodyEl.innerHTML = '';
 
-        // Loop through each recorded data entry and add it to the leaderboard table
         recordedData.forEach((data, i) => {
             const positionTdEl = document.createElement('td');
             const nameTdEl = document.createElement('td');
@@ -48,7 +44,7 @@ function loadScores() {
             tableBodyEl.appendChild(rowEl);
         });
     } else {
-        // If there's no recorded data, display a message in the table
+        
         tableBodyEl.innerHTML = '<tr><td colspan="6">Be the first to record your data</td></tr>';
     }
 }
