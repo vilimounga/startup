@@ -8,25 +8,30 @@ function loadScores() {
     // Retrieve the username from localStorage
     const userName = localStorage.getItem('userName');
 
-    console.log("User Name:", userName);
-
-    // Sort recorded data based on number of steps in descending order
+    // Sort recorded data based on the number of steps in descending order
     recordedData.sort((a, b) => b.steps - a.steps);
 
     const tableBodyEl = document.querySelector('.table tbody');
 
     if (recordedData.length) {
-        for (const [i, data] of recordedData.entries()) {
+        // Clear existing table rows
+        tableBodyEl.innerHTML = '';
+
+        // Loop through each recorded data entry and add it to the leaderboard table
+        recordedData.forEach((data, i) => {
             const positionTdEl = document.createElement('td');
             const nameTdEl = document.createElement('td');
             const stepsTdEl = document.createElement('td');
+            const caloriesTdEl = document.createElement('td');
+            const waterTdEl = document.createElement('td');
             const dateTdEl = document.createElement('td');
 
             positionTdEl.textContent = i + 1;
-            nameTdEl.textContent = data.userName; // Use the username retrieved from localStorage
+            nameTdEl.textContent = data.userName; // Use the username from recorded data
             stepsTdEl.textContent = data.steps;
-
-            // Generate current date
+            caloriesTdEl.textContent = data.calories;
+            waterTdEl.textContent = data.water;
+            
             const currentDate = new Date();
             const options = { month: 'long', day: 'numeric', year: 'numeric' };
             const formattedDate = currentDate.toLocaleDateString('en-US', options);
@@ -36,12 +41,15 @@ function loadScores() {
             rowEl.appendChild(positionTdEl);
             rowEl.appendChild(nameTdEl);
             rowEl.appendChild(stepsTdEl);
+            rowEl.appendChild(caloriesTdEl);
+            rowEl.appendChild(waterTdEl);
             rowEl.appendChild(dateTdEl);
 
             tableBodyEl.appendChild(rowEl);
-        }
+        });
     } else {
-        tableBodyEl.innerHTML = '<tr><td colspan="4">Be the first to record your data</td></tr>';
+        // If there's no recorded data, display a message in the table
+        tableBodyEl.innerHTML = '<tr><td colspan="6">Be the first to record your data</td></tr>';
     }
 }
 
