@@ -23,7 +23,7 @@ function loadScores() {
             const dateTdEl = document.createElement('td');
 
             positionTdEl.textContent = i + 1;
-            nameTdEl.textContent = userName; // Use the username retrieved from localStorage
+            nameTdEl.textContent = data.userName; // Use the username retrieved from localStorage
             stepsTdEl.textContent = data.steps;
 
             // Generate current date
