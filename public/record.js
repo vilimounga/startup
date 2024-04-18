@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
+    const userName = localStorage.getItem("userName"); // Retrieve the username from local storage
+
     const stepsInput = document.getElementById("stepsInput");
     const caloriesInput = document.getElementById("caloriesInput");
     const waterIntakeInput = document.getElementById("waterIntakeInput");
@@ -12,8 +14,9 @@ document.addEventListener("DOMContentLoaded", function() {
         // Get existing data from local storage or initialize an empty array
         let recordedData = JSON.parse(localStorage.getItem("recordedData")) || [];
 
-        // Push the new data to the array
+        // Push the new data with username to the array
         recordedData.push({
+            userName: userName, // Add the username
             steps: steps,
             calories: calories,
             waterIntake: waterIntake
