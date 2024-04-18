@@ -38,3 +38,12 @@ For this deliverable I applied CSS styling to my web application to get my desir
  - **Application elements** - I used only 3 primary colors and styles the pages using large sections of solid colors to highlight different elements of each page.
  - **Application text content** I used Boostrap's built-in font-style on all my pages.
  - **Application image** I used free SVG images from unDraw's library on my index/record html pages.
+
+## JavaScript deliverable
+
+For this deliverable I implemented using JavaScript so that the application works for any single user. I also put places in my code for future technology.
+
+- **login** - When you click the login button after entering a username it takes you to the record page.
+- **database** - On the progress.html page, mock data is being used as a placeholder. On the leaderboard.html page, a table of user data is being displayed from localStorage but it will be replaced with the database data later.
+- **WebSocket** - I used an Alert method on the record page that pops up when data is submitted but this will be replaced with WebSocket messages later.
+- **application logic** - The leaderboard table updates user data is inputted and drawn from localStorage.
