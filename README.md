@@ -47,3 +47,13 @@ For this deliverable I implemented using JavaScript so that the application work
 - **database** - On the progress.html page, mock data is being used as a placeholder. On the leaderboard.html page, a table of user data is being displayed from localStorage but it will be replaced with the database data later.
 - **WebSocket** - I used an Alert method on the record page that pops up when data is submitted but this will be replaced with WebSocket messages later.
 - **application logic** - The leaderboard table updates user data is inputted and drawn from localStorage.
+
+## Service deliverable
+
+For this deliverable I added backend endpoints that retrieve user's previous fitness data and also posted to a leaderboard.
+
+- **Node.js/Express HTTP service** - I implemented this in my index.js file and root directory.
+- **Static middleware for frontend** - This is found on my index.js file.
+- **Calls to third party endpoints** - This is also found on my index.js file.
+- **Backend service endpoints** - Placeholders for the login to were I will call to different database for authentication.
+- **Frontend calls service endpoints** - I did this using the fetch function.
