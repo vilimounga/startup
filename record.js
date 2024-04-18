@@ -29,5 +29,8 @@ document.addEventListener("DOMContentLoaded", function() {
         stepsInput.value = "";
         caloriesInput.value = "";
         waterIntakeInput.value = "";
+
+        window.location.href = "progress.html";
+
     });
 });
