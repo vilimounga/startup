@@ -18,7 +18,7 @@ Do you ever need a simple but powerful way to track your fitness progress? StepM
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
+- [X] Proper use of Markdown
 - [ ] A concise and compelling elevator pitch
 - [ ] Description of key features
 - [ ] Description of how you will use each technology
@@ -26,7 +26,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Do you ever need a simple but powerful way to track your fitness progress? StepMate is an easy-to-use application that you can use daily to track your steps and calorie intake. StepMate also includes notifications of other users so you can be motivated or challenged to reach your personal fitness goals. There will be different motivational quotes everyday in the application for you to read and stay driven to stay dillgent. Make StepMate your new friend!
 
 ### Design
 
