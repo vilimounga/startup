@@ -2,7 +2,7 @@
 
 [My Notes](notes.md)
 
-Do you ever need a simple but powerful way to track your fitness progress? StepMate is an easy-to-use application that you can use daily to track your steps and calorie intake. StepMate also includes notifications of other users so you can be motivated or challenged to reach your personal fitness goals. There will be different motivational quotes everyday in the application for you to read and stay driven to stay dillgent. Make StepMate your new friend!
+StepMate is a simple Fitness Tracker application that simply trackers a user's daily steps and calorie intake. StepMate makes it easy to add fitness information every day and displays it on a simple graph to view progress. StepMate also includes real-time nofitications from other users when they add their fitness data that can be use between friends to compete. StepMate also includes daily motiviation quotes after a user entes their information so that they can feel the reward of being dilligent with their fitness goals.
 
 
 > [!NOTE]
