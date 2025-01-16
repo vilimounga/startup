@@ -2,6 +2,22 @@
 
 [My startup - Simon](https://simon.cs260.click)
 
+React is a framework that wraps all of my HTML, CSS, and JavaScript.
+Computers can interact with each other with their public IP addresses.
+Ports are ways that other computers can interact with one computer.
+Computers send each other data via packets. (TCP/UDP)
+
+# Domain Name System (DNS)
+This is a way to remember a domain name without having to know the IP address.
+Our computer will go to the DNS, find the IP address that has that domain name.
+sumdomain.secondary.top (subdomain (root) - sld.tld)
+tld (Top Level Domain): this is like .com or .edu where its a category of domains for the DNS to find the IP quicker.
+localhost(127.0.01)
+When you lease a domain name, you will link it to your IP address.
+
+# Servers
+Rent a server via AWS using their EC2 service
+
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)
